@@ -10,9 +10,9 @@ import java.util.Random;
  * @author juanm
  */
 public class NumeroSecreto {
-    private Integer numero;
-    private Integer limiteInferior;
-    private Integer limiteSuperior;
+    private int numero;
+    private int limiteInferior;
+    private int limiteSuperior;
     private Random generador;
     
     private static final int LIM_INF_PREDET = 1;
@@ -75,6 +75,7 @@ public class NumeroSecreto {
     public boolean esIgual(int numero) {
         return (this.numero == numero);
     }
+    
 
 
 
